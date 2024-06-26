@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MY CLOTHING PROJECT</title>
+    <link rel="stylesheet" href="style.css">
+
+    <!-- Internal CSS for styling -->
+    <style>
+        .allpageContainer {
+            position: relative;
+        }
+        .modal {
+            display: none; /* Hidden by default */
+            position: fixed;
+            z-index: 1;
+            left: 0;
+            top: 0;
+            width: 80vw;
+            height: 100%;
+            overflow: auto;
+            background-color: rgb(0,0,0); /* Fallback color */
+            background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+            align-items: center;
+            justify-content: center;
+        }
+
+        .modal-content {
+            background-color:rgb(246, 246, 230);
+            margin: auto;
+            padding: 20px;
+            border: 1px solid #888;
+            width: 80%;
+            height: 60%;
+            max-width: 500px;
+            border-radius: 10px;
+            /* list-style: none; */
+            /* text-decoration: none;
+             */
+             line-height: 30px;
+        }
+
+        .modal-content li{
+            list-style: none;
+            /* line-height: 20px; */
+        }
+
+        .modal-content a{
+            text-decoration: none;
+            /* line-height: 20px; */
+            font-size: larger;
+        }
+
+        .modal-content img{
+            width: 50%;
+            height: 60%;
+            object-fit: cover;
+            margin-left: 30px;
+        }
+
+
+
+
+        .close {
+            color: #aaa;
+            float: right;
+            font-size: 28px;
+            font-weight: bolder;
+        }
+
+        .close:hover,
+        .close:focus {
+            color: black;
+            text-decoration: none;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+<!-- CHANGING SECTION -->
+     <div class="switch">
+        <p class="fade-text" id="text1">Free delivery for orders above N50,000</p>
+        <p class="fade-text" id="text2">Sign up to get N5000 off your first order</p>
+     </div>
+
+        <hr>
+     
+<!--NAV SECTION-->
+     <div class="navbar">
+        <!-- person -->
+         <div class="allpageContainer">
+            <a href="#" onclick="openAllPage()"><ion-icon name="person-outline" id="icons"></ion-icon></a>
+         </div>
+
+        <!-- modal -->
+          <div id="myModal" class="modal">
+            <div class="modal-content">
+                <span class="close" onclick="closeAllPage()">&times;</span>
+            <ul>
+                <li><a href="index.html">HOME</a></li>
+                <li><a href="viewall.html">COLLECTION</a></li>
+                <li><a href="signup.html">SIGNUP</a></li>
+            </ul>
+            <img src="images/size.jpg" alt="size chart" >
+          </div>
+        </div>
+
+        <!-- brandname -->
+        <div class="navlogo">
+            <h3>5th<span>.</span>Johnson</h3>
+        </div>
+        <!-- icons -->
+        <div class="navicons">
+            <!-- icons go here -->
+            <ion-icon name="search-outline" id="icons"></ion-icon>
+            <a href="#"><ion-icon name="bag-outline" id="icons"></ion-icon></a>
+        </div>
+     </div>
+
+     <hr>
+
+      <!-- Internal JS for functionality -->
+    <script>
+        // function openAllPage() {
+        //     document.getElementById('myModal').style.display = 'flex';
+        // }
+
+        // function closeAllPage() {
+        //     document.getElementById('myModal').style.display = 'none';
+        // }
+
+        let openAllPage = document.getElementById('mymodal');
+        let closeAllPage = document.getElementById('mymodal');
+
+        function openAllPage(){
+            openAllPage.add;
+        }
+
+        function closeAllPage(){
+            closeAllPage.remove;
+        }
+
+
+        // Close the modal when the user clicks anywhere outside of it
+        // window.onclick = function(e) {
+        //     const modal = document.getElementById('myModal');
+        //     if (e.target == modal) {
+        //         modal.style.display = 'none';
+        //     }
+        // }
+
+    </script>
+    <script src="signup.js"></script>
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+    </body>
+    </html>

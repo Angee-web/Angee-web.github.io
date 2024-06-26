@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MY CLOTHING PROJECT</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<!-- CHANGING SECTION -->
+     <div class="switch">
+        <p class="fade-text" id="text1">Free delivery for orders above N50,000</p>
+        <p class="fade-text" id="text2">Sign up to get N5000 off your first order</p>
+     </div>
+
+        <hr>
+     
+<!--NAV SECTION-->
+<div class="navbar">
+    <!-- person -->
+     <div class="allpageContainer">
+        <a href="#" onclick="openAllPage()"><ion-icon name="person-outline" id="icons"></ion-icon></a>
+     </div>
+
+    <!-- modal -->
+      <div id="myModal" class="modal">
+        <div class="modal-content">
+            <span class="close" onclick="closeAllPage()">&times;</span>
+        <ul>
+            <li><a href="index.html">HOME</a></li>
+            <li><a href="viewall.html">COLLECTION</a></li>
+            <li><a href="signup.html">SIGNUP</a></li>
+        </ul>
+        <img src="images/size.jpg" alt="size chart" >
+      </div>
+    </div>
+
+    <!-- brandname -->
+    <div class="navlogo">
+        <h3>5th<span>.</span>Johnson</h3>
+    </div>
+    <!-- icons -->
+    <div class="navicons">
+        <!-- icons go here -->
+        <ion-icon name="search-outline" id="icons"></ion-icon>
+        <a href="#"><ion-icon name="bag-outline" id="icons"></ion-icon></a>
+    </div>
+ </div>
+
+ <hr>
+
+<!-- HERO SECTION -->
+ <div class="hero">
+    <h5>When in Nigeria</h5>
+    <a href="viewall.html">View All</a>
+    <p>Inspired by elegant and glamorous styles in diaspora</p>
+    <img src="images/pic1.jpg" alt="image of dress" width="" height="">
+ </div>
+
+<!-- SCROLL SECTION -->
+ <div class="scroll">
+    <!-- card1 -->
+     <div class="card1">
+        <div class="card-img"><img src="images/pic2.jpg" alt="dress"></div>
+        <div class="card-content">
+            <p id="dressname">The Bow Dress</p>
+            <p id="dressprice">N15,000</p>
+        </div>
+     </div>
+     <!-- card2 -->
+     <div class="card2">
+        <div class="card-img"><img src="images/pic3.jpg" alt="dress"></div>
+        <div class="card-content">
+            <p id="dressname">The Ballerina Dress</p>
+            <p id="dressprice">N25,000</p>
+        </div>
+     </div>
+     <!-- card3 -->
+     <div class="card3">
+        <div class="card-img"><img src="images/pic4.jpg" alt="dress"></div>
+        <div class="card-content">
+            <p id="dressname">The Ball Dress</p>
+            <p id="dressprice">N20,000</p>
+        </div>
+     </div>
+     <!-- card4 -->
+     <div class="card4">
+        <div class="card-img"><img src="images/pic5.jpg" alt="dress"></div>
+        <div class="card-content">
+            <p id="dressname">The Mini Dress</p>
+            <p id="dressprice">N15,000</p>
+        </div>
+     </div>
+     <!-- card5 -->
+     <div class="card5">
+        <div class="card-img"><img src="images/pic6.jpg" alt="dress"></div>
+        <div class="card-content">
+            <p id="dressname">The Sun Dress</p>
+            <p id="dressprice">N35,000</p>
+        </div>
+     </div>
+ </div>
+
+<!-- TAG SECTION -->
+ <div class="tag">
+    <h4>#SpottedWith5thJohnson</h4>
+    <p>Tag us on instagram be featured</p>
+    <a href="https://www.instagram.com/5thJohnson/">@5thJohnson</a>
+    <br><br>
+    <div class="tgimg">
+     <img src="images/pic7.jpg" alt="image of people">
+     <img src="images/pic8.jpg" alt="image of people">
+     <img src="images/pic3.jpg" alt="image of people">
+     <img src="images/pic4.jpg" alt="image of people">
+
+    </div>
+    
+ </div>
+
+<!-- ACCOUNT SIDE -->
+ <div class="account">
+    <p id="p1">Create an account with us to get N5,000 off your first order.</p>
+    <p>By becoming a website member, you get access to exclusive deals and discounts.</p>
+    <a href="signup.html">SIGN UP</a>
+ </div>
+
+<!-- FOOTER -->
+ <div class="footer">
+    <div>
+        <h5>THE COMPANY</h5>
+        <a href="about.html">About Us</a><br><br>
+        <a href="#">Collection</a>
+    </div>
+
+    <div>
+        <h5>CONTACT US</h5>
+        <p>To contact us please send an email</p>
+        <a href="mailto:darhareochuko@gmail.com" id="email">darhareochuko@gmail.com</a>
+        <p>You can contact us by call or direct <br>message on Whatsapp</p>
+        <a href="tel:+2348054257675">08054257675</a>
+    </div>
+
+    <div>
+        <h5>NIGERIA SHIPPING RATES</h5>
+        <p>WARRI</p>
+        <p>Standard Shipping - N2,000</p>
+        <p>Next Working Day Shipping - N3,500</p>
+        <P>OUTSIDE WARRI</P>
+        <p>Standard Shipping - N3,000</p>
+        <p>Next Working Day Shipping - N5,000</p>
+    </div>
+    <br>
+
+    <div>
+        <h5>UK SHIPPING RATES</h5>
+        <p>Standard Shipping - E10</p>
+        <h5>US SHIPPING RATES</h5>
+        <p>Standard Shipping - $20</p>
+    </div>
+    <br>
+
+    <div>
+        <h5>JOIN OUR NEWSLETTER</h5>
+        <form>
+            <input type="email" placeholder="Email"><br><br>
+            <button type="submit">Submit</button>
+        </form>
+    </div>
+    <br><br>
+
+    <div>&copy;2024, 5thJohnson </div>
+    
+ </div>
+ 
+ <script src="viewall.js"></script>
+ <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+ <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+</body>
+</html>
