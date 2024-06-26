@@ -3,49 +3,49 @@
 let cloths = [
     {
       image:
-        "pic1.jpg",
+        "images/pic1.jpg",
       nameOfCloth: "The Ballerina Dress",
       price: "N32,000",
     },
     {
         image:
-        "pic2.jpg",
+        "images/pic2.jpg",
       nameOfCloth: "The Ballerina Dress",
       price: "N32,000",
     },
     {
         image:
-        "pic3.jpg",
+        "images/pic3.jpg",
       nameOfCloth: "The Ballerina Dress",
       price: "N32,000",
     },
     {
         image:
-        "pic4.jpg",
+        "images/pic4.jpg",
       nameOfCloth: "The Ballerina Dress",
       price: "N32,000",
     },
     {
         image:
-        "pic8.jpg",
+        "images/pic8.jpg",
       nameOfCloth: "The Ballerina Dress",
       price: "N32,000",
     },
     {
         image:
-        "pic5.jpg",
+        "images/pic5.jpg",
       nameOfCloth: "The Ballerina Dress",
       price: "N32,000",
     },
     {
         image:
-        "pic6.jpg",
+        "images/pic6.jpg",
       nameOfCloth: "The Ballerina Dress",
       price: "N32,000",
     },
     {
         image:
-        "pic7.jpg",
+        "images/pic7.jpg",
       nameOfCloth: "The Ballerina Dress",
       price: "N32,000",
     },
