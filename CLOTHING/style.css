@@ -450,13 +450,13 @@ p{
         grid-template-rows: auto;
         gap:0;
         /* width: 100%; */
-        /* overflow-x: hidden; */
+        overflow-x: hidden;
         margin-left:10px;
         margin-right:15px;
     }
 
     .tgimg img{
-        width:345px;
+        width:48vw;
         /* display: flex; */
         /* justify-content: center; */
         /* align-items: center; */
